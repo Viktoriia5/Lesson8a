@@ -1,0 +1,112 @@
+body {
+  background: #e2e7ec;
+  height: 1400px;
+  font-family: "Neue Hans Kendrick";
+}
+main {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 5%;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.articles {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.main-picture {
+  width: 64%;
+  height: 540px;
+  background: linear-gradient(
+      to bottom,
+      rgba(249, 249, 249, 0) 0%,
+      rgba(37, 31, 36, 0.76234243697479) 87%
+    ),
+    url(../images/main.png) no-repeat center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 22px;
+}
+.main-picture__date {
+  color: #818181;
+  text-transform: uppercase;
+  margin: 10px 35px;
+}
+.article-column__date {
+  opacity: 0.5;
+  color: #818181;
+  font-size: 13px;
+  font-family: "Hans Kendrick - Heavy";
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 20px 20px 0px 20px;
+}
+.article-column {
+  width: 31%;
+  height: 540px;
+  background-color: #ffffff;
+  margin-top: 22px;
+}
+.article-column__picture {
+  width: 100%;
+  height: 251px;
+  object-fit: contain;
+}
+.article-column__name {
+  text-transform: uppercase;
+  font-family: "Hans Kendrick V4", "Sans Serif";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 20px;
+}
+.main-picture__name {
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 36px;
+  font-size: 30px;
+  width: 433px;
+  font-family: "Hans Kendrick V4", "Sans Serif";
+  margin: 0px 0px 35px 35px;
+}
+.first-picture {
+  background: url("../images/first.png");
+}
+.second-picture {
+  background: url("../images/second.png");
+}
+.third-picture {
+  background: url("../images/third.png");
+}
+.fourth-picture {
+  background: url("../images/fourth.png");
+}
+.article-column__author {
+  width: 54px;
+  height: 54px;
+  background: url("../images/author.png") no-repeat;
+  margin-left: 20px;
+  margin-top: 10%;
+  justify-self: flex-end;
+}
+.loading {
+  color: #99a5b0;
+  font-family: "Hans Kendrick V4", "Sans Serif";
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5%;
+}
+.transparent {
+  opacity: 0;
+}
