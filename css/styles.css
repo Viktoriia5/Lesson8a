@@ -95,7 +95,7 @@ main {
   height: 54px;
   background: url("../images/author.png") no-repeat;
   margin-left: 20px;
-  margin-top: 10%;
+  margin-top: 20px;
   justify-self: flex-end;
 }
 .loading {
