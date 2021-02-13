@@ -64,10 +64,10 @@ main {
 .article-column__name {
   text-transform: uppercase;
   font-family: "Hans Kendrick V4", "Sans Serif";
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  padding: 20px;
+  padding: 20px 0px 0px 20px;
 }
 .main-picture__name {
   color: #ffffff;
